@@ -473,6 +473,51 @@ img {
 .contacts-footer-item:last-child {
   margin-bottom: 0px;
 }
+.footer-forms {
+  margin-left: 93px;
+}
+.footer-forms-item {
+  display: flex;
+  align-items: center;
+}
+.footer-forms-description {
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+}
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  background-color: var(--secondary-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.footer-forms-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 29px;
+  margin-left: 12px;
+  align-items: center;
+
+  color: var(--btn-white-color);
+  background-color: var(--btn-acent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer-forms-svg {
+  margin-left: 10px;
+}
 /* Button */
 
 .button {
@@ -483,7 +528,6 @@ img {
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-  border: none;
 }
 .button.primary {
   border-radius: 4px;
@@ -636,6 +680,19 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.modal-title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--primary-btn-color);
+}
+.modal-svg-name {
+  fill: ;
+}
+
 .modal-close-button {
   position: absolute;
   top: 8px;
@@ -652,6 +709,11 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--btn-acent-color);
+}
+
 .modal-container.is-hidden {
   opacity: 0;
   visibility: hidden;
