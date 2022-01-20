@@ -787,7 +787,11 @@ img {
 }
 
 .modal-form .modal-icon:hover,
-.modal-input + .modal-con:hover,
+.modal-input + .modal-icon:hover,
+.modal-input:not(:placeholder-shown) + .modal-icon {
+  fill: var(--acent-color);
+}
+.modal-input:focus + .modal-icon,
 .modal-input:not(:placeholder-shown) + .modal-icon {
   fill: var(--acent-color);
 }
